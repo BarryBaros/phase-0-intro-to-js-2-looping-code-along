@@ -26,6 +26,8 @@
 //     return newArray;
 // }
 
+
+
 function writeCards(names, event) {
     const thankYouMessage = []
     for (let i = 0; i < names.length; i++) {
@@ -33,6 +35,11 @@ function writeCards(names, event) {
     }
     return thankYouMessage;
 }
+const names = ["Tim", "Vanis", "Jedidiah"];
+const event = "Birthay";
+const message = writeCards(names, event);
+console.log(message);
+
 
 function countdown(number) {
     while (number >= 0){
@@ -51,3 +58,6 @@ function countDown(num) {
 
 // Example usage:
 countDown(10);
+
+
+
